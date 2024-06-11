@@ -20,7 +20,7 @@ const RandomColor = () => {
     let g = Math.floor(Math.random() * 255);
     let b = Math.floor(Math.random() * 255);
 
-    let rgbColor = `(${r},${g},${b})`;
+    let rgbColor = `rgb(${r},${g},${b})`;
 
     // console.log(color);
 
